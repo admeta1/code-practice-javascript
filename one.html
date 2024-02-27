@@ -1,0 +1,14 @@
+<script>
+  // find factorial of the number...
+  const inputNum = prompt("enter a number")
+  var fact = 1;
+  if (inputNum < 0) {
+    console.log(`factorial of ${inputNum} is not possible`)
+  } else {
+    for (let i = 1; i < inputNum; i++) {
+      fact = fact*i
+
+    }
+    console.log(`factorial of $(inputNum) is ${fact}`)
+  }
+</script>
